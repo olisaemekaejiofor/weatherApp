@@ -44,7 +44,7 @@ form.addEventListener('submit', function(e) {
 	e.preventDefault()
 	var input = document.getElementById('search').value
 	var apiKey = "&appid=916b275928783cd2c88f09c25187358e"
-	var apiUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + input + apiKey + "&units=metric"
+	var apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + input + apiKey + "&units=metric"
 	search(apiUrl)
 })
 async function search(apiUrl){
