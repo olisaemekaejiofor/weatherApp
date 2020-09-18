@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+	font-size: 18px;
+	overflow-x: hidden;
+}
+body{
+	background: linear-gradient(47.75deg, #567485 -24.05%, #4D5B64 -24.05%, #424B51 -24.05%, #1B2931 62.27%), #1B2931;
+	height: 100vh;
+}
+.top-container{
+	padding: 30px;
+	width: 100%;
+	display: flex;
+}
+#search{
+	padding-left: 10px;
+	width: 280px;
+	height: 55px;
+	background: #FFFF;
+	border-bottom-left-radius: 12px;
+	border-top-left-radius: 12px;
+	border: none;
+}
+#submit{
+	border-bottom-right-radius: 12px;
+	border-top-right-radius: 12px;
+	background-color: black;
+	color: white;
+	width: 70px;
+	height: 55px;
+	border: none;
+	font-weight: bold;
+}
+#submit:hover{
+	cursor: pointer;
+	background: #1B2931;
+	font-weight: normal; 
+}
+.form{
+	width: 75%;
+}
+.time{
+	width: 25%;
+	font-weight: bold;
+	color: white;
+}
+.mid-container{
+	text-align: center;
+	padding-top: 70px;
+}
+#country{
+	color: white;
+	font-size: 56px;
+	font-weight: bold;
+}
+#theText{
+	color: white;
+	font-size: 30px;
+}
+#temperature{
+	color: white;
+	font-size: 42px;
+	font-weight: bold;
+}
+.bottom-container{
+	text-align: center;
+	padding-top: 100px;
+}
+.chee{
+	color: white;
+	font-size: 20px; 
+}
+@media screen and (max-width: 768px){
+	.top-container{
+		padding: 10px;
+		display: inline-block;
+	}
+	.form, .time{
+		width: 100%;
+		text-align: center;
+		padding-top: 20px;
+	}
+}
+@media screen and (max-width: 378px){
+	#search{
+		width: 210px;
+	}
+}
